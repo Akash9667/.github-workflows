@@ -34,4 +34,4 @@ jobs:
           cd ${{ github.workspace }}/testsigma
           chmod a+x run_smoke_tests.sh
           ./run_smoke_tests.sh
-        continue-on-error: true  
+        # continue-on-error: true  
